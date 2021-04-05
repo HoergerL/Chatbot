@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/chatBubblesListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"></ListView>
+
+    <RelativeLayout
+        android:id="@+id/form"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/resultBTN"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:onClick="onClickErgebnisbutton"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/dhbwRed"
+            android:text="Ergebnis"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:visibility="gone" />
+
+         <EditText
+             android:id="@+id/chatET"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentBottom="true"
+             android:layout_toLeftOf="@+id/sendBTN"
+             android:ems="10"
+             android:visibility="visible"
+             android:hint="gib bitte hier deinen Text ein"
+             android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/sendBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/chatET"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:onClick="onClickSend"
+            android:text="senden"
+            android:visibility="visible" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

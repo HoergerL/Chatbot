@@ -42,7 +42,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class OverviewCourses extends AppCompatActivity {
-    Button btnCreate, Send;
+    Button Send;
     String username;
     //EditText editText;
     ArrayList<String> studiengänge;
@@ -77,9 +77,6 @@ public class OverviewCourses extends AppCompatActivity {
          list.setAdapter(arrayAdapter);
 
 
-
-
-         btnCreate = (Button) findViewById(R.id.pdf);
 
          list.setOnItemClickListener( new AdapterView.OnItemClickListener(){
 
