@@ -90,8 +90,8 @@ public class Login extends AppCompatActivity {
 
     public void skipLogin(View view) {
         new AlertDialog.Builder(this).setTitle("Bist du dir sicher?")
-                .setMessage("Wenn du ohne Login fortfährst, kannst du weder deine Ergebnisse " +
-                        "speichern noch ein Teilnahmezertifikat erhalten")
+                .setMessage("Wenn du ohne Login fortfährst, kannst du deine Ergebnisse nicht " +
+                        "speichern ")
                 .setPositiveButton("Fortfahren", new DialogInterface.OnClickListener() {
 
                     @Override
