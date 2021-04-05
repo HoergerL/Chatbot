@@ -30,10 +30,7 @@ If the labels are not the same the word will be deleted from the database and th
 The app starts with a loading screen, which lasts 3 seconds. After that you can see the login page. Here you have the choice to login or skip it. If you enter your login 
 details it will be saved to Firebase Authentification, so you can login with them again. If you skip the login the app shows an AlertDialog, which warns you that you can't save your result then.
 
-<img src="/Screenshots/LoadingScreen.png" height="400">
-
-<p> &nbsp </p>
-<img src="/Screenshots/LoginScreen.png" height="400">
+<img src="/Screenshots/LoadingScreen.png" height="400">  <img src="/Screenshots/LoginScreen.png" height="400">
 
 <p> &nbsp </p>
 
@@ -55,9 +52,7 @@ In the result page the user can see up to 5 recommend study programms. He can cl
 Additionally the user can click on the DHBW-Logo to get to the website of the DHBW or he can click on the questionmark button.
 
 
-<img src="/Screenshots/result.png" height="400">
-
-<img src="/Screenshots/WebView.png" height="400">
+<img src="/Screenshots/result.png" height="400"> <img src="/Screenshots/WebView.png" height="400">
 
 <p> &nbsp </p>
 
@@ -67,6 +62,4 @@ If the user has questions he can contact the DHBW directly. This activity shows 
 
 
 <img src="/Screenshots/help.png" height="400">
-
-
 
